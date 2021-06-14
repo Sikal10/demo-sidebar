@@ -1,0 +1,35 @@
+.sidebars {
+    height: 100%;
+    width: 250px;
+    border-right: 1px solid grey;
+    background: grey;
+}
+
+.sidebars__list {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebars__listRow {
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.sidebars__listRow.active {
+    background-color: #222222;
+}
+.sidebars__listRow:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+.sidebars__listRow--icon {
+    display: grid;
+    place-items: center;
+    flex: 0.3;
+}
+.sidebars__listRow--title {
+    flex: 0.7;
+}
